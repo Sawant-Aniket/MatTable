@@ -25,6 +25,7 @@ export interface PeriodicElement {
   imports: [CommonModule, RouterOutlet, MatTableModule,MatButtonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
+  
 })
 export class AppComponent {
   displayedColumns: any[] = ['date', 'allocatedSingle', 'usedSingle', 'availableSingle','rateSingle','allocatedDouble','usedDouble','availableDouble','rateDouble','currency'];
